@@ -16,7 +16,7 @@
             if(data.error){
                messageOne.textContent = "Error: " + data.error
             }else{
-                messageOne.textContent = "Temperature: " + data.temperature
+                messageOne.textContent = "Temperature: " + data.temperature + " Precipitation: " + data.precip
                 messageTwo.textContent = "Location: " + search.value
             }
         })
